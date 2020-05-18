@@ -1,25 +1,35 @@
 // business logic
-var convertToRoman = function(num) {
-    var romanNumeral = ["M", "CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"];
-    var numberequiv = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
-    var romanized = "";
+var BeepBoopInput = function test(input) {
 
-  for (var index = 0; index < numberequiv.length; index++) {
-    while (numberequiv[index] <= num) {
-      romanized += romanNumeral[index];
-      num -= numberequiv[index];
-    }
-  }
-  console.log(romanized)
-  return romanized;
-};
+   var results = [];
+   for (var i = 0; i <= input; i++) {
 
-// user interface logic
-$(document).ready(function() {
-  $("form#numeral-input").submit(function(event) {
-    event.preventDefault()
-    var number = $("#numeral").val()
-    var convertednumber = convertToRoman(number)
+    if (i % 3 == 0 ) {
+       results.push("I'm sorry, Dave. I'm afraid I can't do that.");
+      }
+    else if (i.toString().match(/0/)) {
+       results.push("0")
+      }
+    else if (i.toString().match(/1/)) {
+       results.push("Beep!")
+      }
+    else if (i.toString().match(/2/)) {
+       results.push("Boop!")
+      }
+    else {
+       results.push(i);
+     }
+   }
+   return results;
+ }
+
+// front-end logic
+
+$(document).ready(function(){
+  $('form#numeral-input').submit(function(event){
+    event.preventDefault();
+    var number = parseInt($('#numeral').val());
+    var convertednumber = BeepBoopInput(number)
     $(".createdoutput").html(convertednumber)
     $("#result").show();
   });
