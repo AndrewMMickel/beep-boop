@@ -2,7 +2,7 @@
 var BeepBoopInput = function test(input) {
 
    var results = [];
-   for (var i = 1; i <= input; i++) {
+   for (var i = 0; i <= input; i++) {
 
     if (i % 3 == 0 ) {
        results.push("I'm sorry, Dave. I'm afraid I can't do that.");
