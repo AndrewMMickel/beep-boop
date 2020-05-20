@@ -1,16 +1,19 @@
-# _{hello world!}_
+# _Beep-Boop!_
 
-#### _{first webpage}, {2/6/2020}_
+#### _A test in inputs, {5/20/2020}_
 
-#### By _**{Andrew Mickel}**_
+#### By _**Andrew Mickel**_
 
 ## Description
 
-_{This page is a creation of mine as I learn to code with HTML}_
+_HAL will give you an answer depending on what number you give him._
+_This page is a test of taking a user input and providing an answer based on it._
 
 ## Setup/Installation Requirements
 
-* _There shouldn't be any installation requirements. Will update if this changes_
+*Download the files from [https://github.com/AndrewMMickel/beep-boop](https://github.com/AndrewMMickel/beep-boop) and save it in a folder
+*Be sure you have boostraps downloaded on your computer. You can get the latest version from [https://getbootstrap.com](https://getbootstrap.com/docs/3.4/css/)
+*Also be sure you have JQuery saved to a folder on your computer somewhere. You can download it at [jquery.com](jquery.com/download/)
 
 ## Known Bugs
 
@@ -22,7 +25,7 @@ _email andrew.m.mickel@gmail.com if there are any concerns_
 
 ## Technologies Used
 
-_The most impressive part so far is that all of this work has been done on Windows. There'll be more later_
+_Uses arrays to take a given input and provides a result based on the input. Use of bootstraps and jquery included_
 
 ### License
 

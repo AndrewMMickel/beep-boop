@@ -31,6 +31,6 @@ $(document).ready(function(){
     var number = parseInt($('#numeral').val());
     var convertednumber = BeepBoopInput(number)
     $(".createdoutput").html(convertednumber)
-    $("#result").show();
+    $("#result").fadeIn();
   });
 });
