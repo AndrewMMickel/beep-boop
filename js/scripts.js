@@ -5,19 +5,19 @@ var BeepBoopInput = function test(input) {
    for (var i = 0; i <= input; i++) {
 
     if (i % 3 == 0 ) {
-       results.push("I'm sorry, Dave. I'm afraid I can't do that.");
+       results.push("I'm sorry, Dave. I'm afraid I can't do that. ");
       }
     else if (i.toString().match(/0/)) {
-       results.push("0")
+       results.push("0 ")
       }
     else if (i.toString().match(/1/)) {
-       results.push("Beep!")
+       results.push("Beep! ")
       }
     else if (i.toString().match(/2/)) {
-       results.push("Boop!")
+       results.push("Boop! ")
       }
     else {
-       results.push(i);
+       results.push(i + " ");
      }
    }
    return results;
