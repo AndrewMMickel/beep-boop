@@ -20,13 +20,13 @@ _This page is a test of taking a user input and providing an answer based on it.
 _No known bugs. Will update with changes_
 
 ## Specs
-_The program will return an output based upon the given input number._
-* If the input has "1" in it, the output will be "Beep!"
-* If the input has "2" in it, the output will be "Boop!"
-* If the input is divisible by 3, the output will be "I'm sorry, Dave. I'm afraid I can't do that."
-* It will continue to do this until the given input has been reached
-example input: 5
-example output: "I'm sorry, Dave. I'm afraid I can't do that. Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5"
+|Spec|Input|Output|
+|----|------|------|
+|The program will return an output based upon the given input number|"4"|0, 1, 2, 3, 4|
+|If the input has "1" in it, the output will be "Beep!"|"1"|"Beep!"|
+|If the input has "2" in it, the output will be "Boop!"|"2"|"Boop!"|
+|If the input has "3" in it, the output will be "I'm sorry, Dave. I'm afraid I can't do that."|"3"|"I'm sorry, Dave. I'm afraid I can't do that."|
+|The program will continue to count up until the given input has been reached|"5"|"I'm sorry, Dave. I'm afraid I can't do that. Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5"|
 
 ## Support and contact details
 
