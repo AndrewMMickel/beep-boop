@@ -22,12 +22,11 @@ _No known bugs. Will update with changes_
 ## Specs
 |Spec|Input|Output|
 |----|------|------|
-|The program will return an output based upon the given input number|"4"|0, 1, 2, 3, 4|
-|If the input has "1" in it, the output will be "Beep!"|"1"|"Beep!"|
-|If the input has "2" in it, the output will be "Boop!"|"2"|"Boop!"|
-|If the input has "3" in it, the output will be "I'm sorry, Dave. I'm afraid I can't do that."|"3"|"I'm sorry, Dave. I'm afraid I can't do that."|
-|The program will continue to count up until the given input has been reached|"5"|"I'm sorry, Dave. I'm afraid I can't do that. Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5"|
-
+|The program will display a set of numbers on the page counting from 0 to the input number|"4"|0, 1, 2, 3, 4|
+|If the input number has a "1" in it, the output will be "Beep!"|"1"|"Beep!"|
+|If the input number has a "2" in it, the output will be "Boop!"|"2"|"Boop!"|
+|If the input number has a "3" in it, the output will be "I'm sorry, Dave. I'm afraid I can't do that."|"3"|"I'm sorry, Dave. I'm afraid I can't do that."|
+|The program will continue to count up until the given input number has been reached|"5"|"I'm sorry, Dave. I'm afraid I can't do that. Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5"|
 ## Support and contact details
 
 _email andrew.m.mickel@gmail.com if there are any concerns_
