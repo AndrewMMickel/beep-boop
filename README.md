@@ -26,7 +26,7 @@ _No known bugs. Will update with changes_
 |If the input number has a "1" in it, the output will be "Beep!"|"1"|"Beep!"|
 |If the input number has a "2" in it, the output will be "Boop!"|"2"|"Boop!"|
 |If the input number has a "3" in it, the output will be "I'm sorry, Dave. I'm afraid I can't do that."|"3"|"I'm sorry, Dave. I'm afraid I can't do that."|
-|The program will continue to count up until the given input number has been reached|"5"|"I'm sorry, Dave. I'm afraid I can't do that. Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5"|
+|The program will continue to count up until the given input number has been reached|"5"|"0 Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5"|
 
 ## Support and contact details
 
