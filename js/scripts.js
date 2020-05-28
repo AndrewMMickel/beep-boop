@@ -4,11 +4,8 @@ var BeepBoopInput = function test(input) {
    var results = [];
    for (var i = 0; i <= input; i++) {
 
-    if (i % 3 == 0 ) {
+    if (i.toString().match(/3/)) {
        results.push("I'm sorry, Dave. I'm afraid I can't do that. ");
-      }
-    else if (i.toString().match(/0/)) {
-       results.push("0 ")
       }
     else if (i.toString().match(/1/)) {
        results.push("Beep! ")
